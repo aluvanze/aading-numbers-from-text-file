@@ -7,7 +7,7 @@ for line in f:
     [name, price1, price2]=line.split()
     price=[price1,price2]
     total=(float(price1)*float(price2))
-    print(name,total)
+    print("total for",name,"is",total)
     bill=bill+total
 print("please pay",bill)
 
